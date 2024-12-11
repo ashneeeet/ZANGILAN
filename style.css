@@ -63,15 +63,17 @@ header {
 .unexp{
     padding: 10px 20px;
     background-color: #A8BAC3;
-    display: inline-block;
-    margin-top: 50px;
-    margin-left:27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    margin: 50px auto;
     position: relative;
     box-shadow:0 0.08rem 0.15rem black;
     border-radius: 10px;
     z-index: 1;
-    margin-bottom: -150px; 
-
+    margin-bottom: -150px;
 }
 
 .unexp p{
